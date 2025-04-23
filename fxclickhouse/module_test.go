@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
-	"github.com/ankorstore/yokai-contrib/fxclickhouse"
+	"github.com/adaosantos/yokai-contrib/fxclickhouse"
 	"github.com/ankorstore/yokai/config"
 	"github.com/ankorstore/yokai/fxconfig"
 	"github.com/stretchr/testify/assert"

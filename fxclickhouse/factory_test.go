@@ -3,7 +3,7 @@ package fxclickhouse_test
 import (
 	"testing"
 
-	"github.com/ankorstore/yokai-contrib/fxclickhouse"
+	"github.com/adaosantos/yokai-contrib/fxclickhouse"
 	"github.com/stretchr/testify/assert"
 )
 

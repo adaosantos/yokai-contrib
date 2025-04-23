@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ankorstore/yokai-contrib/fxclickhouse"
-	"github.com/ankorstore/yokai-contrib/fxclickhouse/healthcheck"
+	"github.com/adaosantos/yokai-contrib/fxclickhouse"
+	"github.com/adaosantos/yokai-contrib/fxclickhouse/healthcheck"
 	cmock "github.com/srikanthccv/ClickHouse-go-mock"
 	"github.com/stretchr/testify/assert"
 )

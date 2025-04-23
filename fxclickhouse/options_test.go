@@ -5,7 +5,7 @@ import (
 	"time"
 
 	clickhousesdk "github.com/ClickHouse/clickhouse-go/v2"
-	"github.com/ankorstore/yokai-contrib/fxclickhouse"
+	"github.com/adaosantos/yokai-contrib/fxclickhouse"
 	"github.com/stretchr/testify/assert"
 )
 

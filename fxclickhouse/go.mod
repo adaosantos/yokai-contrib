@@ -1,4 +1,4 @@
-module github.com/ankorstore/yokai-contrib/fxclickhouse
+module github.com/adaosantos/yokai-contrib/fxclickhouse
 
 go 1.22.0
 
