@@ -3,8 +3,8 @@ package fxclickhouse
 import (
 	"context"
 	"errors"
+	"fmt"
 
-	"github.com/ClickHouse/clickhouse-go/v2"
 	clickhousesdk "github.com/ClickHouse/clickhouse-go/v2"
 	"github.com/ClickHouse/clickhouse-go/v2/lib/driver"
 	"github.com/ankorstore/yokai/config"
@@ -75,7 +75,7 @@ func NewFxClickhouse(p FxClickhouseParam) (driver.Conn, error) {
 	}
 
 	if p.Config.IsSet("modules.clickhouse.settings") {
-		settings, ok := (p.Config.Get("modules.clickhouse.settings")).(clickhouse.Settings)
+		settings, ok := p.Config.Get("modules.clickhouse.settings").(map[string]any)
 		if !ok {
 			return nil, errors.New("Unknown settings")
 		}
